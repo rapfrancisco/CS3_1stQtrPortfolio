@@ -17,24 +17,16 @@
         <input id="servicecharge" />
     </label></br/>
     
-    <button>Accept Input</button>
-    
-    <p> Total Meal: 
-        <span id="totalmeal"></span>
-    </p>
-
+    <button onclick="totalMeal()"> Accept input </button>
     <script>
         function totalMeal() {
-            // Get the values from the input fields
             mealprice = parseFloat(document.getElementById("mealprice").value);
             tip = parseFloat(document.getElementById("tip").value);
-            servicecharge= parseFloat(document.getElementById("taxpercentage").value);
+            servicecharge= parseFloat(document.getElementById("servicecharge").value);
 
-            // Calculate the tip and tax amounts
             totalmeal = mealprice + tip + servicecharge;
            
-            // Display the result
-            document.getElementById("totalmeal").innerHTML = "Total Meal: $" + totalmeal.toFixed(2);
+            document.getElementById("totalmeal").innerHTML = "Total Meal: " + totalmeal.toFixed(2);
             
          
         }

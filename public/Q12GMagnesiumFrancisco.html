@@ -19,14 +19,14 @@
     
     <button onclick="totalMeal()"> Accept input </button>
     <div id="totalmeal"></div>
-    
+
     <script>
         function totalMeal() {
             mealprice = parseFloat(document.getElementById("mealprice").value);
             tip = parseFloat(document.getElementById("tip").value);
             servicecharge= parseFloat(document.getElementById("servicecharge").value);
 
-            totalmeal = mealprice + tip + servicecharge;
+            totalmeal = mealprice + tip + (servicecharge / 100 * mealprice); 
            
             document.getElementById("totalmeal").innerHTML = "Total Meal: " + totalmeal.toFixed(2);
             

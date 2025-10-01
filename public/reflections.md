@@ -1,13 +1,13 @@
 
 # List and describe at least 5 topics that we discussed in class that you know very well. Each description should be at least 1 paragraph with twoto five sentences.#
 
-## 1. **declaring variables** - This has already been discussed in Grade 7 and 8; however, we still gota recap this first quarter. It's one of the fundamentals, something we build on. ##
+## 1. **declaring variables** - This has already been discussed in Grade 7 and 8; however, we still got to recap this first quarter. It's one of the fundamentals, something we build on. ##
 
 ## 2. **Do-while loops** - Loops actually make up a huge chunk of what we're practicing at the moment. The Do-while's cool since it runs once even if the condition is false, which makes it different from the while loop. I luv loops.##
 
 ## 3. **If-else statements** - If-else statements let the program make decisions. I got used to them since we often use them in activities. They’re simple to understand but also very useful because the program can react differently depending on the condition. ##
 
-## 4. **Arithmetic operations** - These would jsut be the symbols like +, -, *, and /. I’m comfortable with them because I already know math as well as we already use them in coding often. They’re simple but they always show up, so I know them just as much as I do with my classmates. ##
+## 4. **Arithmetic operations** - These would just be the symbols like +, -, *, and /. I’m comfortable with them because I already know math as well as we already use them in coding often. They’re simple but they always show up, so I know them just as much as I do with my classmates. ##
 
 ## 5. **Relational operators** - Relational operators compare such values, like checking if something is equal, greater, or smaller. I usually use them with if-else statements, so I’ve practiced them a lot. They’re not THAT hard to understand because they’re logical and clear like us !##
 
